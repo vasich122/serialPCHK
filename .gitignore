@@ -1,0 +1,39 @@
+# === Node.js (React frontend) ===
+/frontend/node_modules
+/frontend/build
+/frontend/dist
+
+# React env files
+/frontend/.env
+/frontend/.env.local
+/frontend/.env.development
+/frontend/.env.test
+/frontend/.env.production
+
+# React logs
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/yarn-error.log*
+
+# === Python (FastAPI backend) ===
+/backend/__pycache__/
+/backend/*.py[cod]
+/backend/venv/
+/backend/env/
+/backend/.env
+/backend/.pytest_cache/
+/backend/.coverage
+/backend/htmlcov/
+/backend/.mypy_cache/
+/backend/*.log
+
+# === PostgreSQL (локальные данные и дампы) ===
+/db/pgdata/
+/db/*.sql
+/db/*.dump
+
+# === Общие ===
+.DS_Store
+.vscode/
+*.log
+*.swp
